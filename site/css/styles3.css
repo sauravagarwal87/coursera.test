@@ -1,0 +1,170 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+/** HEADER **/
+#top{
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+}
+
+
+ .navbar-brand{/*for main heading*/
+   font-family: 'Mina', sans-serif;
+   font-size: 30pt;
+
+}
+  
+  
+
+h1 { /*for inside heading*/
+	font-size: 36px;
+	margin-bottom: 5px;
+	color: black;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+  height: 500px;
+  width: 95%;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 50px;
+  margin-top: 10px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  background-color:grey;
+}
+#menu-tile span, #specials-tile span, #map-tile span {
+  width: 100%;
+  text-align: center;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  color:black;
+  
+}
+#p1{
+	font-size: 16px;
+	margin-top: 10px;
+	color: black;
+	margin-left: 20px;
+}
+
+
+
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+.navbar-toggle{
+	display: none;
+}
+
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.navbar-toggle{
+	display: none;
+}
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px){
+
+.navbar-toggle{
+	display: none;
+}
+
+
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+ .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #menu-tile, #specials-tile, #map-tile {
+  height: 950px;
+  width: 98%;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.navbar-toggle{
+
+	position: relative;
+	float: right;
+	padding: 13px 14px;
+	margin-top: 40px;
+	margin-right: 100px;
+	margin-bottom: 8px;
+	margin-left: 5px;
+	background-color: transparent;
+	background-image: none;
+	border:1px solid white;
+	border-radius:4px;
+}
+
+
+
+#navbarNav{
+	background-color: white;
+	border: 2px solid black;
+	width: 100%;
+}
+/*for design the words in button*/
+
+#h1 {
+	color: black;
+	font-size: 1.2em;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#h2 {
+	color: black;
+	font-size: 1.2em;
+	text-align: center;
+	margin-top: 10px;
+}
+#h3 {
+	color: black;
+	font-size: 1.2em;
+	text-align: center;
+	margin-top: 10px;
+}
+/*for lines after words*/
+hr {
+	height: 2px;
+	width:100%;
+	color:solid #3F0C1F;
+	background-color: solid black;
+}
+
+
+
+
+
+
+
+
+}
+
